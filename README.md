@@ -71,7 +71,13 @@ On the lot level, Lot 1 and Lot 2 are into specs with respectively variances of 
 
 ## **3- Deliverable 3**
 
-## Study Design: MechaCar vs Competition.
+### Study Design: MechaCar vs Competition.
 
+In this section, We wanted to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. In order to do this, We used R's t.test() function to find four different p-values. The question that We wanted to answer by doing this was:
 
+Do any of the four groups have a statistically different mean from the population mena of 1,500 PSI?
+
+The answer to this question is:
+
+By using a significance level of 95%, meaning that 95% of the time this tests results would be true, We tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that We would fail to reject that there is a statistical difference between the four groups and the population mean.
 
