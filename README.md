@@ -71,7 +71,7 @@ On the lot level, Lot 1 and Lot 2 are into specs with respectively variances of 
 
 ## **3- Deliverable 3**
 
-  ## Study Design: MechaCar vs Competition.
+## Study Design: MechaCar vs Competition.
 
 
 
