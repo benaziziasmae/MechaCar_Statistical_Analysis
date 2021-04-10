@@ -81,3 +81,5 @@ The answer to this question is:
 
 By using a significance level of 95%, meaning that 95% of the time this tests results would be true, We tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that We would fail to reject that there is a statistical difference between the four groups and the population mean.
 
+
+![t_test](/images/t_test.PNG)
