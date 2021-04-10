@@ -38,6 +38,10 @@ In this section, We loaded in the miles per gallon dataset. From there, We prefo
    3- The main indicator of whether the linear model predicts the mpg of the MechaCar is the r-squared value. In this case, it is at 0.7149 mean that out of 100 instances, this model would approximately predict the mpg of the MechaCar correctly 71 times. This means that the model would be considered effective.
    
    Here are the summary results from the linear regression.
+   
+       mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
+   
+   
    ![linear_regression](/images/linear_regression.png)
 
 ## **1- Deliverable 2**
