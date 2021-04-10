@@ -6,6 +6,6 @@ This project involves the use of statistics and hypothesis testing to analyze a 
 All of the statistical analysis and visualizations is written in the R programming language.
 
 ## Resources
-- Data source:
+- Data source: [MechaCar_mpg](/Resources/MechaCar_mpg.csv),[Suspension_Coil](/Resources/Suspension_Coil.csv)
 - Software : Rstudio
 
