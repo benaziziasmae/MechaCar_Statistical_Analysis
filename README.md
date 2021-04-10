@@ -14,7 +14,7 @@ The purpose of this analysis is to offer insights on the MechaCar's production t
 
 ## Summary 
 
-## **1- Deliverable 1**
+## **I- Deliverable 1**
 
   ### Linear Regression to Predict MPG
   
@@ -43,7 +43,7 @@ In this section, We loaded in the miles per gallon dataset. From there, We prefo
       
    ![linear_regression](/images/linear_regression.png)
 
-## **2- Deliverable 2**
+## **II- Deliverable 2**
 
 
   ### Summary Statistics on Suspension Coils
@@ -70,7 +70,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 The design specs are respected for all manufacturing lots in total with a global variance of 62.3 psi.
 On the lot level, Lot 1 and Lot 2 are into specs with respectively variances of 0.98 and 7.5 psi. The Lot 3 is out of specs with a variance of 170.3 psi.
 
-## **3- Deliverable 3**
+## **III- Deliverable 3**
 
 ### T-Tests on Suspension Coils
 
@@ -90,7 +90,7 @@ Here is a breakdown of each of the four tests:
 How does this information help? Clearly, something went awry in Lot 3's production cycle. The process needs to be checked for system fails and the suspension coils from this lot need to be inspected to remove those not meeting quality criteria.
 
 
-## **4- Deliverable 4**
+## **IV- Deliverable 4**
 
 ### Study Design: MechaCar vs Competition.
 
@@ -102,8 +102,22 @@ In this section, We are comparing how the MechaCar performs with the competition
 - What data is needed to run the statistical test?
 - The answer to these questions are:
 
-The metrics We want to test are city and highway fuel efficiencies.
+The metrics We want to test are the following:
 
-Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. THe Alternative Hypothesis is that they are not all the same.
+Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
+
+- Safety Feature Rating: Independent Variable
+- Current Price (Selling): Dependent Variable
+- Drive Package : Independent Variable
+- Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
+- Resale Value: Independent Variable
+- Average Annual Cost of ownership (Maintenance): Independent Variable
+- MPG (Gasoline Efficiency): Independent Variable
+
+
+Null Hypothesis 
+- (Ho) : MechaCar is priced correctly based on its performance of key factors for its genre.
+- (Ha) : MechaCar is NOT priced correctly based on performance of key factors for its genre.
+
 We would use an ANOVA test to complete this analysis for both types of fuel efficiencies. Also  We would use the ggplot2 library to show the potential spread between different cars using a boxplot.
 We would need fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there was 10 cars in the class type, We would have a top of 500 data points collected for each fuel efficiency type.
