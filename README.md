@@ -14,7 +14,7 @@ The purpose of this analysis is to offer insights on the MechaCar's production t
 
 ## Summary 
 
-**1- Deliverable 1**
+## **1- Deliverable 1**
 
   ### Linear Regression to Predict MPG
   
