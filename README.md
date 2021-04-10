@@ -102,7 +102,7 @@ In this section, We are comparing how the MechaCar performs with the competition
 - What data is needed to run the statistical test?
 - The answer to these questions are:
 
-The metrics We want to test are the following:
+**The metrics** We want to test are the following:
 
 Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
 
@@ -115,9 +115,13 @@ Collecting data for comparable models across all major manufacturers for past 3 
 - MPG (Gasoline Efficiency): Independent Variable
 
 
-Null Hypothesis 
+**Null Hypothesis**
 - (Ho) : MechaCar is priced correctly based on its performance of key factors for its genre.
 - (Ha) : MechaCar is NOT priced correctly based on performance of key factors for its genre.
 
-We would use an ANOVA test to complete this analysis for both types of fuel efficiencies. Also  We would use the ggplot2 library to show the potential spread between different cars using a boxplot.
+**Statistical Tests**
+
+We would use Either an ANOVA test to complete this analysis for both types of fuel efficiencies. Also  We would use the ggplot2 library to show the potential spread between different cars using a boxplot.
 We would need fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there was 10 cars in the class type, We would have a top of 500 data points collected for each fuel efficiency type.
+
+Or A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price.
