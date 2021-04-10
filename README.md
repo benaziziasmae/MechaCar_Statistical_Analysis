@@ -43,7 +43,7 @@ In this section, We loaded in the miles per gallon dataset. From there, We prefo
       
    ![linear_regression](/images/linear_regression.png)
 
-## **1- Deliverable 2**
+## **2- Deliverable 2**
 
   ### Summary Statistics on Suspension Coils
 
@@ -67,4 +67,11 @@ Looking at the total summary, the current variance is approximately 76.23 PSI me
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 The design specs are respected for all manufacturing lots in total with a global variance of 62.3 psi.
-On the lot level, Lot 1 and Lot 2 are into specs with respectively variances of 0.98 and 7.5 psi. The Lot 3 is out of specs with a variance of 170.3 psi
+On the lot level, Lot 1 and Lot 2 are into specs with respectively variances of 0.98 and 7.5 psi. The Lot 3 is out of specs with a variance of 170.3 psi.
+
+## **3- Deliverable 3**
+
+  ## Study Design: MechaCar vs Competition.
+
+
+
