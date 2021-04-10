@@ -102,9 +102,9 @@ In this section, We are comparing how the MechaCar performs with the competition
 - What data is needed to run the statistical test?
 - The answer to these questions are:
 
-**The metrics** We want to test are the following:
+**The metrics**
 
-Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
+We want to test are the following:
 
 - Safety Feature Rating: Independent Variable
 - Current Price (Selling): Dependent Variable
