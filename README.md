@@ -46,3 +46,7 @@ In this section, We loaded in the miles per gallon dataset. From there, We prefo
 
 In this section, We loaded in the suspension coils dataset. It was comprised of 150 different vehicles ID, 3 different lot numbers, and corresponding PSI levels for each vehicle. From there We created two summary tables to look at the mean, median, variance, and standard deviation of data. The first table looked at of the data as a whole, while the second table looked specific at each of the three different lots that the MechaCars were divided into. Here are the two tables.
 
+![lot_summary](/images/lot_summary.PNG)
+
+![total_summary](/images/total_summary.PNG)
+
