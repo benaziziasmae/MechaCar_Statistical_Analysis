@@ -50,10 +50,10 @@ In this section, We loaded in the miles per gallon dataset. From there, We prefo
 
 In this section, We loaded in the suspension coils dataset. It was comprised of 150 different vehicles ID, 3 different lot numbers, and corresponding PSI levels for each vehicle. From there We created two summary tables to look at the mean, median, variance, and standard deviation of data. The first table looked at of the data as a whole, while the second table looked specific at each of the three different lots that the MechaCars were divided into. Here are the two tables.
 
-                                        All manufacturing lots
+                                   **All manufacturing lots**
 ![lot_summary](/images/lot_summary.PNG)
 
-                                        By each manufacturing lot
+                                   **By each manufacturing lot**
                                    
 ![total_summary](/images/total_summary.PNG)
 
@@ -72,7 +72,8 @@ On the lot level, Lot 1 and Lot 2 are into specs with respectively variances of 
 
 ## **3- Deliverable 3**
 
-### Study Design: MechaCar vs Competition.
+### T-Tests on Suspension Coils
+
 
 In this section, We wanted to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. In order to do this, We used R's t.test() function to find four different p-values. The question that We wanted to answer by doing this was:
 
@@ -82,5 +83,27 @@ The answer to this question is:
 
 By using a significance level of 95%, meaning that 95% of the time this tests results would be true, We tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that We would fail to reject that there is a statistical difference between the four groups and the population mean.
 
+Here is a breakdown of each of the four tests:
 
 ![t_test](/images/t_test.PNG)
+
+How does this information help? Clearly, something went awry in Lot 3's production cycle. The process needs to be checked for system fails and the suspension coils from this lot need to be inspected to remove those not meeting quality criteria.
+
+
+## **4- Deliverable 4**
+
+### Study Design: MechaCar vs Competition.
+
+In this section, We are comparing how the MechaCar performs with the competition. We are not preforming any tests in R, We talking about how We would go about completing this analysis. In order to do this We want to answer four different questions which are:
+
+- What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?
+- The answer to these questions are:
+
+The metrics We want to test are city and highway fuel efficiencies.
+
+Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. THe Alternative Hypothesis is that they are not all the same.
+We would use an ANOVA test to complete this analysis for both types of fuel efficiencies. Also  We would use the ggplot2 library to show the potential spread between different cars using a boxplot.
+We would need fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there was 10 cars in the class type, We would have a top of 500 data points collected for each fuel efficiency type.
