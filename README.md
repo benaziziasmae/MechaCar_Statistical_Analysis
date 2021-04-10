@@ -35,13 +35,12 @@ In this section, We loaded in the miles per gallon dataset. From there, We prefo
 
    2- The slope of the linear model is not considered to be zero. This is because the linear regression shows that some of the independent variables had a significant effect on the dependent variable. If none of the independent variables had an effect on the dependent variable then the linear regression would result in a near zero slope.
 
-   3- The main indicator of whether the linear model predicts the mpg of the MechaCar is the r-squared value. In this case, it is at 0.7149 mean that out of 100 instances, this model would approximately predict the mpg of the MechaCar correctly 71 times. This means that the model would be considered effective.
+   3- The main indicator of whether the linear model predicts the mpg of the MechaCar is the r-squared value. In this case, it is at 0.7149 mean that out of 100 instances, this model would approximately predict the mpg of the MechaCar correctly 71 times. This means We can consider this linear model as fairly efficient to predict mpg of MechaCar prototypes.
    
    Here are the summary results from the linear regression.
    
-       mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
-   
-   
+       mpg = (6.267)vehicle_length + (1.25e-3)vehicle_weight + (6.88e-2)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-1.04e+2)
+      
    ![linear_regression](/images/linear_regression.png)
 
 ## **1- Deliverable 2**
@@ -50,14 +49,15 @@ In this section, We loaded in the miles per gallon dataset. From there, We prefo
 
 In this section, We loaded in the suspension coils dataset. It was comprised of 150 different vehicles ID, 3 different lot numbers, and corresponding PSI levels for each vehicle. From there We created two summary tables to look at the mean, median, variance, and standard deviation of data. The first table looked at of the data as a whole, while the second table looked specific at each of the three different lots that the MechaCars were divided into. Here are the two tables.
 
+                                   **All manufacturing lots**
 ![lot_summary](/images/lot_summary.PNG)
 
+                                   **By each manufacturing lot**
+                                   
 ![total_summary](/images/total_summary.PNG)
 
 
 In this section again, We want to answer the following questions:
-
-By completing this analysis I want to answer one question:
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -65,4 +65,6 @@ The answer to this question is:
 
 Looking at the total summary, the current variance is approximately 76.23 PSI meaning that is does meet the design specification. When looking at the lots individuals, the first two lotas meet the design specification at a varaince of approximately 1.14 PSI and 10.13 PSI respectfully, but the third lot does not. This is becasue the third lot's variance is approximately 220.01 PSI, exceeding the design specification by more than double the alotted amount. Therefore, the manufacturing team should work with the cars in lots 1 and 2 compared to those in lot 3.
 
-
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+The design specs are respected for all manufacturing lots in total with a global variance of 62.3 psi.
+On the lot level, Lot 1 and Lot 2 are into specs with respectively variances of 0.98 and 7.5 psi. The Lot 3 is out of specs with a variance of 170.3 psi
